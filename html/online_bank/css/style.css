@@ -1,0 +1,33 @@
+.main{
+    padding: 5px 5px 3px 3px;
+    color: rgb(0, 0, 0);
+}
+
+header,nav,footer{
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+
+section,article{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.art1{ /*NEED TO CHECK*/
+    text-align: left;
+}
+
+aside{
+    text-align: right;
+    direction:rtl;
+    background-color: rgb(15 157 88);
+}
+
+h1{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    border-radius: 1%;
+    margin: 10px 10px 10px 10px;
+}

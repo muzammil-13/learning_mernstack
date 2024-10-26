@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h2>Attendee info</h2>
+    <div>
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+            <label for="current_date">Date: </label>
+            <input type="date"><br>
+
+            <label for="present">Present: </label><br>
+            <input type="radio" id="present_yes" name="present">Yes</input><br>
+            <input type="radio" id="present_no" name="present">No</input><br>
+            
+            <label for="frlangs">Known front-end languages:</label><br>
+            <input type="checkbox" id="frlang1" name="frlang1" value="Html">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="frlang2" name="frlang2" value="Css">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="frlang1" name="frlang3" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+
+            <label for="sample_file">Upload any file: </label>
+            <input type="file"><br>
+
+            <label for="choose_clr">Choose any color:</label>
+            <input type="color"><br>
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <h2>Attendence table</h2>
+    <div>
+        <table border="1px">
+            <tr>
+                <th>SNo.</th>
+                <th>Name</th>
+                <th>Present</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Muzammil</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Athul</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Amal</td>
+                <td>No</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
