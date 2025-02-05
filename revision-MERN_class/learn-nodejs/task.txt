@@ -1,0 +1,5 @@
+Task:Write a node.js script that logs the following system information to the console
+ 
+1.OS platform
+2.CPU Architecure
+3.System Uptime(in minutes)
