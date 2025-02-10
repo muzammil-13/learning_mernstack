@@ -1,0 +1,5 @@
+task: Build  a simple React and Node.js application whre:
+ 
+    1.The backend provides a list of student names when requested
+
+    2.The front end displays these students name as a list when the button is clicked
