@@ -1,0 +1,2 @@
+TASK:
+ Create a node.js program that reads data from a file (data.txt) converts all text to uppercase,write the updated content to a new file(upper.txt)and log the success message in a log file(log.txt)

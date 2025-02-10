@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color:black;
+  background-color: burlywood;
+}
+
+h1{
+  background-color: yellow;
+}
+
+.student-list {
+  margin-top: 20px;
+}
+
+.student-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list li {
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.student-list li:hover {
+  transform: translateX(10px);
+  background-color: #e0e0e0;
+}
