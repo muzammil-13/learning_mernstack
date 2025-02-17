@@ -1,6 +1,7 @@
-num=[1,2,3,4,5]
+# calculate the sum of first N numbers
+num=int(input("Enter a positive integer: "))
 sum=0
 
-for i in num:
+for i in range(1,num+1):
     sum+=i
 print(sum)
