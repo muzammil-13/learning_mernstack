@@ -5,8 +5,18 @@ while guess!=num:
     guess=int(input("guess the number: "))
     
     if guess<num:
-        print("Too low! guess higher number!")
+        if guess==num-1:
+            print("Too close! guess bit higher!")
+        else:
+            print("Too low! guess higher number!")
+    
     elif guess>num:
-        print("Too high! guess lower!")
+        if guess==num+1:
+            print("Too close! guess bit lower!")
+        else:
+            print("Too high! guess lower!")
+    
     else:
-        print("got the number!")
+        print(f"{num} was the number and you got the number!")
+
+print("BYE!")
