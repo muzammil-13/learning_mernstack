@@ -1,0 +1,14 @@
+Task 1:Grade calculator
+
+mark >=90 marks 
+=80 grade b >=70 grade c
+greater than or equal to 60 grade d like
+ 
+ 
+task2: program for even or odd checker
+ 
+task3: check leap year
+ 
+task4: largest of three numbers
+ 
+task5: take input user and check the number is positive negative or zero
